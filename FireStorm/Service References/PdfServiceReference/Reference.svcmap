@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="53f41d23-d9b6-498d-bd3e-2708006e7195" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60422/PDFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PDFService.wsdl" MetadataType="Wsdl" ID="6aff7af8-47f3-4a62-a9cc-4edef5597161" SourceId="1" SourceUrl="http://localhost:60422/PDFService.svc?wsdl" />
+    <MetadataFile FileName="PDFService.xsd" MetadataType="Schema" ID="a34b5ba8-1b81-4064-9af4-03bc8ff0c230" SourceId="1" SourceUrl="http://localhost:60422/PDFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PDFService1.xsd" MetadataType="Schema" ID="154275f9-3875-4718-8325-c0558df4403b" SourceId="1" SourceUrl="http://localhost:60422/PDFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PDFService2.xsd" MetadataType="Schema" ID="02391d1e-4217-44e5-9a2c-241f6a951e33" SourceId="1" SourceUrl="http://localhost:60422/PDFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PDFService.disco" MetadataType="Disco" ID="6bc2d8ee-c6fd-425d-a864-a2d7048fbdea" SourceId="1" SourceUrl="http://localhost:60422/PDFService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

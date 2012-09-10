@@ -12,7 +12,7 @@ namespace FireStorm
 
             client.TestCompleted += TestCompleted;
             
-            client.TestAsync(true);
+            //client.TestAsync(true);
         }
 
         private void TestCompleted(object sender, TestCompletedEventArgs e)
