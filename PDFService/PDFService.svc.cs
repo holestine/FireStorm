@@ -8,9 +8,7 @@ using System.Text;
 
 namespace PDFService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "PDFServiceWriter" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select PDFServiceWriter.svc or PDFServiceWriter.svc.cs at the Solution Explorer and start debugging.
-    public class PDFServiceWriter : IPDFServiceWriter
+    public class PDFService : IPdfService
     {
         public string GetData(int value)
         {
@@ -28,6 +26,11 @@ namespace PDFService
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public bool Test(bool b)
+        {
+            return !b;
         }
     }
 }

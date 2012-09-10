@@ -1,15 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-
+﻿using System.Windows.Controls;
+using FireStorm.PdfServiceReference;
 
 namespace FireStorm
 {
@@ -18,6 +8,16 @@ namespace FireStorm
         public MainPage()
         {
             InitializeComponent();
+            var client = new PdfServiceClient();
+
+            client.TestCompleted += TestCompleted;
+            
+            client.TestAsync(true);
+        }
+
+        private void TestCompleted(object sender, TestCompletedEventArgs e)
+        {
+           
         }
     }
 }
